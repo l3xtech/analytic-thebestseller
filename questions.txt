@@ -1,0 +1,139 @@
+Ano?
+2012
+Mês?
+Janeiro
+Meta mensal?
+2.000
+Numero de vendedores?
+3
+Dias trabalhados?
+23
+Total FDS?
+9
+Total dias úteis?
+14
+
+
+
+Número monetário de vendas [Venda Real]?
+*seller*_vr_total
+
+Clientes atendidos [Oportunidades Abertas]?
+*seller*_ca_total
+
+Número de vendas fechadas [Oportunidades Fechadas]?
+*seller*_vf_total
+
+Número de vendas perdidas [Oportunidades Perdidas]?
+*seller*_vp_total
+
+Taxa de conversão?
+*seller*_tc_total
+
+Média diária = venda real do dia # PS: Porque não tem historico para comparação
+
+Média semanal
+vendas da semana / dias da semana(7)
+
+Média Geral
+venda geral / dias total(23)
+
+% da média geral por semana
+média semanal / media geral
+
+tendencia linear
+alfa = intercepção(vendas:range;dias:range)
+beta = inclinação(vendas:range;dias:range)
+alfa+beta*observação(dia)
+
+Tendecia + Sazonalidade
+tendencia linear + % da média geral por semana
+
+Índice de Sazonalidade?
+
+Ticket médio?
+faturamento mensal / pedidos no mes
+
+###################################################################
+
+Número de oportunidades abertas, fechadas e perdidas
+
+Volume de atendimentos por vendedor
+
+Saídas e entradas no caixa da empresa
+
+Registro da duração do contato > Nova metrica  = oportunidades abertas / horario de trabalho
+
+Faturamento comparado por vendedor > Nova métrica = Alerta de ficando para trás
+
+Evolução de vendas > Nova métrica = Completar o restante do mês
+
+
+
+NAO MOSTRA E É IMPORTANTE
+
+aquisição, fidelização, expansão
+
+Custo de Aquisição por Cliente (CAC)
+
+Lifetime Value (LTV)
+
+Retorno sobre Investimento (ROI)
+
+Saúde da carteira de clientes
+
+Abertura de Clientes
+
+Positivação de Clientes
+
+Taxa de follow-up
+
+Curva ABC de clientes
+
+Conversão do e-commerce
+
+###################################################################
+
+Quem fez mais vendas?
+
+Quem fez maior valor em vendas?
+
+Quem atendeu mais clientes?
+
+Quem tem a melhor taxa de conversão?
+
+Quem tem a maior constancia?
+
+Quem tem o maior ticket médio?
+
+# Metricas de regressão #
+
+Escalonamento
+Normalização
+Standardized data
+One-Hot Encoding
+
+
+Media
+Variancia
+* Calcular Desvio padrão
+
+* Raiz do Erro quadrático médio
+Erro absoluto médio
+Coeficiente de Determinação (R2)
+
+# Métricas de classificação #
+
+média harmônica
+Métrica F1
+Métrica F (Beta)
+
+
+# Classificação com probabilidade #
+
+Definir um limiar que separa as decisões
+Curva ROC
+Classificador Perfeito
+Classificador Aleatório
+AUC (Area Under Curve)
+
